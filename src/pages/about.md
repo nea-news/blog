@@ -3,12 +3,13 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Introducing Nea News, the cutting-edge tool that revolutionizes the way we consume news. Nea News is a state-of-the-art platform that utilizes the power of Natural Language Processing to tailor news articles and recommendations to your specific preferences. Gone are the days of endlessly scrolling through irrelevant articles - with Nea News, you'll receive only the most pertinent news stories that are tailored to your interests.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Nea News is designed with you in mind. Our intelligent algorithms analyze the content of news articles and parse them into understandable and relevant topics, enabling us to provide you with personalized recommendations that are both accurate and timely. With Nea News, you'll stay up-to-date with the news that matters most to you, and never miss a beat.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Our platform is user-friendly and intuitive, making it easy for you to customize your news preferences and access the content you want with just a few clicks. Whether you're interested in politics, sports, entertainment, or world news, Nea News has you covered.
+
+At Nea News, we believe that knowledge is power. Our mission is to provide you with the most comprehensive and relevant news possible, enabling you to make informed decisions and stay ahead of the game. Join us today and experience the future of news.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
@@ -16,21 +17,15 @@ This theme is self-documented \_ which means articles/posts in this theme can al
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+Working...
 
 ## Features
 
-Here are certain features of this site.
+Some of the core features of NEA News include:
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+- Tailored News
+- Comprehensive Coverage
+- User-Friendly Interface:
+- Personalized Recommendations
+- Automatic Summarization
+- Sentiment Analysis
