@@ -22,7 +22,81 @@ const { frontmatter } = Astro.props;
     <section id="about" class="prose mb-28 max-w-3xl prose-img:border-0">
       <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
       <slot />
+      <h1 class="text-2xl tracking-wider sm:text-3xl">Team</h1>
+      <div class="lg:grid-cols-3 grid grid-cols-1 gap-6 sm:grid-cols-3">
+        <div class="bg-white flex flex-col items-center space-y-4 p-6">
+          <img
+            class="h-48 w-48 rounded-full"
+            src="https://robohash.org/catarina"
+            alt="catarina"
+          />
+          <div class="text-center">
+            <h3 class="text-gray-900 text-lg font-medium">Catarina Oliveira</h3>
+            <p class="text-gray-500 text-sm font-medium">Product Owner</p>
+          </div>
+        </div>
+
+        <div class="bg-white flex flex-col items-center space-y-4 p-6">
+          <img
+            class="h-48 w-48 rounded-full"
+            src="https://robohash.org/canadiano"
+            alt="Alex"
+          />
+          <div class="text-center">
+            <h3 class="text-gray-900 text-lg font-medium">Daniel Ferreira</h3>
+            <p class="text-gray-500 text-sm font-medium">Team Manager</p>
+          </div>
+        </div>
+
+        <div class="bg-white flex flex-col items-center space-y-4 p-6">
+          <img
+            class="h-48 w-48 rounded-full"
+            src="https://robohash.org/lobito"
+            alt="Alex"
+          />
+          <div class="text-center">
+            <h3 class="text-gray-900 text-lg font-medium">Guilherme Antunes</h3>
+            <p class="text-gray-500 text-sm font-medium">Quality Assurance</p>
+          </div>
+        </div>
+
+        <div class="bg-white flex flex-col items-center space-y-4 p-6">
+          <img
+            class="h-48 w-48 rounded-full"
+            src="https://robohash.org/casanova"
+            alt="Alex"
+          />
+          <div class="text-center">
+            <h3 class="text-gray-900 text-lg font-medium">Luís Afonso</h3>
+            <p class="text-gray-500 text-sm font-medium">DevOps Master</p>
+          </div>
+        </div>
+
+        <div class="bg-white flex flex-col items-center space-y-4 p-6">
+          <img
+            class="h-48 w-48 rounded-full"
+            src="https://robohash.org/marianaandrade"
+            alt="Alex"
+          />
+          <div class="text-center">
+            <h3 class="text-gray-900 text-lg font-medium">Mariana Andrade</h3>
+            <p class="text-gray-500 text-sm font-medium">Technical Writer</p>
+          </div>
+        </div>
+
+        <div class="bg-white flex flex-col items-center space-y-4 p-6">
+          <img
+            class="h-48 w-48 rounded-full"
+            src="https://robohash.org/v1cente"
+            alt="Alex"
+          />
+          <div class="text-center">
+            <h3 class="text-gray-900 text-lg font-medium">Vicente Barros</h3>
+            <p class="text-gray-500 text-sm font-medium">Architect</p>
+          </div>
+        </div>
+      </div>
     </section>
+    <Footer />
   </main>
-  <Footer />
 </Layout>
