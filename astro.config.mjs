@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nea-news.github.io/blog",
+  site: "https://nea-news.github.io/",
   base: "/blog",
   integrations: [
     tailwind({
